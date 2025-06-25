@@ -25,13 +25,11 @@ The dataset includes the following fields:
 | Country              | Warehouse country                                   |
 | Latitude / Longitude | Geo-coordinates of the warehouse                    |
 
-### Executive Summary
+## Executive Summary
 
 This inventory analysis uncovers patterns across products, suppliers, and warehouse locations. While **Books**, **Home & Garden**, and **Office Supplies** have high stock availability, *Home & Garden* also leads in stockouts—highlighting gaps in replenishment. *Books* and *Office Supplies* frequently fall below reorder points, suggesting the need for closer monitoring.
 
-Inventory is mostly concentrated in **Germany**, **Belgium**, and **Spain**, while **France** holds fewer SKUs and units, which may impact local fulfillment. Supplier performance is generally stable, with **SUP018**, **SUP016**, and **SUP030** offering the fastest lead times. In contrast, **SUP041** shows repeated delays, especially in *Books* and *Toys*.
-
-Restocking activity varies throughout the year, peaking in **January** and **May**, but dropping in **February** and **August**. These insights support improvements in restocking schedules, supplier selection, and warehouse planning to maintain balanced inventory and service levels.
+Inventory is mostly concentrated in **Germany**, **Belgium**, and **Spain**, while **France** holds fewer SKUs and units, which may impact local fulfillment. Supplier performance is generally stable, with **SUP018**, **SUP016**, and **SUP030** offering the fastest lead times. In contrast, **SUP041** shows repeated delays, especially in *Books* and *Toys*. Restocking activity varies throughout the year, peaking in **January** and **May**, but dropping in **February** and **August**. These insights support improvements in restocking schedules, supplier selection, and warehouse planning to maintain balanced inventory and service levels.
 
 ---
 
