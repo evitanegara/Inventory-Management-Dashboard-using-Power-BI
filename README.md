@@ -36,7 +36,7 @@ This inventory analysis uncovers patterns across products, suppliers, and wareho
   <img src="https://github.com/user-attachments/assets/ed57c6a5-71a6-41ce-8141-8b9e7ddb9cf2" alt="Inventory Dashboard Page 1" width="700"/>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/66af4abc-0f9c-4ddf-8269-3b59b7874cc7" alt="Inventory Dashboard Overview" width="900"/>
+  <img src="https://github.com/user-attachments/assets/66af4abc-0f9c-4ddf-8269-3b59b7874cc7" alt="Inventory Dashboard Overview" width="700"/>
 </p>
 
 
@@ -51,7 +51,7 @@ This inventory analysis uncovers patterns across products, suppliers, and wareho
 - The highest stockout volumes are seen in Home & Garden (68K), Office Supplies (67K), and Clothing (58K), pointing to possible supply chain gaps or demand surges.
 - Sports and Toys have the lowest out-of-stock counts, with 46K and 50K units respectively.
   <p align="center">
-  <img src="https://github.com/user-attachments/assets/db53edfd-00f7-47b4-b551-df270b33e8d7" alt="Inventory Dashboard - Supplier Performance Page" width="900"/>
+  <img src="https://github.com/user-attachments/assets/db53edfd-00f7-47b4-b551-df270b33e8d7" alt="Inventory Dashboard - Supplier Performance Page" width="700"/>
 </p>
 
 
