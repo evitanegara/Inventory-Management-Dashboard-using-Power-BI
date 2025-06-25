@@ -76,22 +76,21 @@ The dataset includes the following fields:
 ## Recommendations
 
 ### Procurement & Replenishment
-- Prioritize Books, Office Supplies, and Clothing for restocking.
-- Monitor SKUs that regularly fall below reorder point.
-- Assign fast-moving SKUs to fast suppliers (SUP018, SUP016, SUP030).
+- Prioritize restocking for Books, Office Supplies, and Clothing , these categories consistently show high restock volume needs (2,038; 1,717; and 1,514 units respectively) and the largest number of SKUs falling below reorder thresholds. This signals strong demand and replenishment gaps that risk future stockouts.
+- Monitor Books (47 SKUs) and Office Supplies (44 SKUs) more closely to prevent availability issues and missed sales opportunities.
+- Assign fast-moving SKUs to reliable suppliers like SUP018, SUP016, and SUP030 to reduce lead time delays and ensure timely restocking.
 
 ### Warehouse Optimization
-- Stock high-demand products in top hubs: Germany, Belgium, and Spain.
-- Rebalance stock levels in France to improve product availability.
-
+- Stock high-demand products in top-performing hubs like Germany, Belgium, and Spain, which currently hold the highest inventory volumes and product counts. These locations serve as major distribution centers and can handle demand efficiently.
+- Reassess and rebalance inventory levels in France, which holds the lowest product variety (470 SKUs) and stock volume. Enhancing its inventory can improve regional fulfillment and reduce delivery time for local demand.
+  
 ### Supplier Management
-- Reduce reliance on SUP041 due to delays.
-- Increase orders with SUP023 and SUP040 for consistent performance.
+- Reduce dependency on SUP041, which shows the slowest lead times and repeated delays.
+- Increase allocation to reliable suppliers such as SUP023 and SUP040, who demonstrate consistent delivery performance across all categories, helping maintain steady inventory flow.
 
 ### Seasonal Planning
-- Prepare for restocking spikes in January and Q2.
-- Improve forecasting in February and August to avoid stock shortages.
-
+- Strengthen restocking efforts ahead of January and Q2, when demand and replenishment activity consistently peak—likely driven by post-holiday recovery and seasonal inventory cycles.
+- Implement machine learning based forecasting models to better anticipate restocking needs in February and August, which currently show the lowest restock volumes. These models can help identify hidden demand patterns and reduce the risk of understocking during slower or irregular seasons.
 ---
 
 ## Contact
