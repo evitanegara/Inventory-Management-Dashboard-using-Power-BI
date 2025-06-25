@@ -60,7 +60,9 @@ This inventory analysis uncovers patterns across products, suppliers, and wareho
 - Most SKUs are above reorder levels, ensuring availability.
 - Books (47 SKUs) and Office Supplies (44 SKUs) are most often below reorder thresholds.
 - Electronics and Clothing are compliant but should still be monitored.
-![image](https://github.com/user-attachments/assets/cfe7bdd1-94d4-41ab-8726-071266e3990c)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cfe7bdd1-94d4-41ab-8726-071266e3990c" alt="Inventory Overview Dashboard" width="800"/>
+</p>
 
 ### Restocking Volume by Category
 - Books require the highest restocking volume at 2,038 units, indicating frequent turnover or strong demand.
@@ -101,7 +103,8 @@ This inventory analysis uncovers patterns across products, suppliers, and wareho
 - The January spike was led by Office Supplies (284), Clothing (197), and Sports (146)—likely due to post-holiday demand and new-year planning.
 - February dropped sharply, especially in Clothing (13 units) and Office Supplies (77 units), while Home & Garden unexpectedly rose to 174 units.
 - December closed the year slightly above average, supported by strong restocking in Sports (244) and Books (139), possibly in preparation for year-end demand or Q1 sales.
-  ![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/a8bd5c34-2322-42a4-9a21-abff0080d9b7)
+
 
 ---
 
