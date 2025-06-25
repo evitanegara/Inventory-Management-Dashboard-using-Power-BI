@@ -97,8 +97,13 @@ This inventory analysis uncovers patterns across products, suppliers, and wareho
 - SUP018, SUP016, and SUP030 are the fastest suppliers, each averaging 15.7 days—suitable for time-sensitive or fast-moving products.
 - SUP041 is the slowest, with an average lead time of 17.3 days and delays up to 20 days in Books and Toys, which may impact stock availability.
 - SUP023 and SUP040 show the most consistent performance across all categories, maintaining lead times between 13 and 18 days.
-  ![image](https://github.com/user-attachments/assets/d45417c3-d9f0-4e30-ab63-5dc242c3c977)
-![image](https://github.com/user-attachments/assets/e9c6e4c5-01b0-4d6e-9981-910c09d2227a)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d45417c3-d9f0-4e30-ab63-5dc242c3c977" alt="Restock Requirement Summary Table" width="700"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e9c6e4c5-01b0-4d6e-9981-910c09d2227a" alt="Product Above vs Below Reorder Point" width="700"/>
+</p>
 
 
 ### Monthly Restocking Trends
