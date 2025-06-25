@@ -27,11 +27,20 @@ The dataset includes the following fields:
 
 ## Executive Summary
 
-This inventory analysis uncovers patterns across products, suppliers, and warehouse locations. While **Books**, **Home & Garden**, and **Office Supplies** have high stock availability, *Home & Garden* also leads in stockouts—highlighting gaps in replenishment. *Books* and *Office Supplies* frequently fall below reorder points, suggesting the need for closer monitoring.
-
-Inventory is mostly concentrated in **Germany**, **Belgium**, and **Spain**, while **France** holds fewer SKUs and units, which may impact local fulfillment. Supplier performance is generally stable, with **SUP018**, **SUP016**, and **SUP030** offering the fastest lead times. In contrast, **SUP041** shows repeated delays, especially in *Books* and *Toys*. Restocking activity varies throughout the year, peaking in **January** and **May**, but dropping in **February** and **August**. These insights support improvements in restocking schedules, supplier selection, and warehouse planning to maintain balanced inventory and service levels.
+This inventory analysis uncovers patterns across products, suppliers, and warehouse locations. While **Books**, **Home & Garden**, and **Office Supplies** have high stock availability, *Home & Garden* also leads in stockouts—highlighting gaps in replenishment. *Books* and *Office Supplies* frequently fall below reorder points, suggesting the need for closer monitoring. Inventory is mostly concentrated in **Germany**, **Belgium**, and **Spain**, while **France** holds fewer SKUs and units, which may impact local fulfillment. Supplier performance is generally stable, with **SUP018**, **SUP016**, and **SUP030** offering the fastest lead times. In contrast, **SUP041** shows repeated delays, especially in *Books* and *Toys*. Restocking activity varies throughout the year, peaking in **January** and **May**, but dropping in **February** and **August**. These insights support improvements in restocking schedules, supplier selection, and warehouse planning to maintain balanced inventory and service levels.
 
 ---
+
+## Visualization
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ed57c6a5-71a6-41ce-8141-8b9e7ddb9cf2" alt="Inventory Dashboard Page 1" width="700"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/228e2fdb-f647-419a-95e6-8bdf9a0ac2d4" alt="Inventory Dashboard Page 2" width="700"/>
+</p>
+
+
 
 ## Insights Deep-Dive
 ### Inventory Stock Distribution by Category
@@ -39,33 +48,45 @@ Inventory is mostly concentrated in **Germany**, **Belgium**, and **Spain**, whi
 - Books, Office Supplies, and Home & Garden lead in available quantity, holding 318K, 300K, and 313K units respectively.
 - The highest stockout volumes are seen in Home & Garden (68K), Office Supplies (67K), and Clothing (58K), pointing to possible supply chain gaps or demand surges.
 - Sports and Toys have the lowest out-of-stock counts, with 46K and 50K units respectively.
+  ![image](https://github.com/user-attachments/assets/db53edfd-00f7-47b4-b551-df270b33e8d7)
+
 
 ### Reorder Point Compliance
 - Most SKUs are above reorder levels, ensuring availability.
 - Books (47 SKUs) and Office Supplies (44 SKUs) are most often below reorder thresholds.
 - Electronics and Clothing are compliant but should still be monitored.
+![image](https://github.com/user-attachments/assets/cfe7bdd1-94d4-41ab-8726-071266e3990c)
 
 ### Restocking Volume by Category
 - Books require the highest restocking volume at 2,038 units, indicating frequent turnover or strong demand.
 - Office Supplies follow closely with 1,717 units, and Clothing ranks third with 1,514 units.
-- Toys have the lowest restock requirement at 1,126 units. 
+- Toys have the lowest restock requirement at 1,126 units.
+  ![image](https://github.com/user-attachments/assets/61ff1913-3caf-434f-9eb5-ba5265878db9)
+
 
 ### Country-Wise Inventory Distribution
 - Germany holds the most stock (276K units, 533 SKUs), positioning it as the most heavily stocked location.
 - elgium and Spain each manage over 260,000 units, placing them among the top three locations by inventory volume.
 - France holds the fewest SKUs (470) and lowest stock volume (223K units).
+  ![image](https://github.com/user-attachments/assets/c5fdd357-625f-40ec-b251-7ab85d951abd)
+
 
 ### Inventory Turnover & Lead Time Efficiency
 - Home & Garden (25.26K), Books (25.03K), and Sports (24.57K) show the highest turnover, reflecting strong product movement.
 - Office Supplies and Clothing maintain steady turnover levels around 24K, indicating consistent sales flow.
 - Electronics has the lowest turnover at 21.63K.
 - Overall turnover is relatively balanced across all categories.
+  ![image](https://github.com/user-attachments/assets/13f14e3c-903a-4a10-b699-f56d8fba1653)
+
 
 ### Supplier Lead Time Analysis
 - Supplier lead times range from 15.7 to 17.3 days, showing overall consistent performance.
 - SUP018, SUP016, and SUP030 are the fastest suppliers, each averaging 15.7 days—suitable for time-sensitive or fast-moving products.
 - SUP041 is the slowest, with an average lead time of 17.3 days and delays up to 20 days in Books and Toys, which may impact stock availability.
 - SUP023 and SUP040 show the most consistent performance across all categories, maintaining lead times between 13 and 18 days.
+  ![image](https://github.com/user-attachments/assets/d45417c3-d9f0-4e30-ab63-5dc242c3c977)
+![image](https://github.com/user-attachments/assets/e9c6e4c5-01b0-4d6e-9981-910c09d2227a)
+
 
 ### Monthly Restocking Trends
 
@@ -75,6 +96,8 @@ Inventory is mostly concentrated in **Germany**, **Belgium**, and **Spain**, whi
 - The January spike was led by Office Supplies (284), Clothing (197), and Sports (146)—likely due to post-holiday demand and new-year planning.
 - February dropped sharply, especially in Clothing (13 units) and Office Supplies (77 units), while Home & Garden unexpectedly rose to 174 units.
 - December closed the year slightly above average, supported by strong restocking in Sports (244) and Books (139), possibly in preparation for year-end demand or Q1 sales.
+  ![Uploading image.png…]()
+
 ---
 
 ## Recommendations
