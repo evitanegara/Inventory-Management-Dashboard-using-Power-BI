@@ -61,21 +61,25 @@ This inventory analysis uncovers patterns across products, suppliers, and wareho
 - Books (47 SKUs) and Office Supplies (44 SKUs) are most often below reorder thresholds.
 - Electronics and Clothing are compliant but should still be monitored.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cfe7bdd1-94d4-41ab-8726-071266e3990c" alt="Inventory Overview Dashboard" width="800"/>
+  <img src="https://github.com/user-attachments/assets/cfe7bdd1-94d4-41ab-8726-071266e3990c" alt="Inventory Overview Dashboard" width="700"/>
 </p>
 
 ### Restocking Volume by Category
 - Books require the highest restocking volume at 2,038 units, indicating frequent turnover or strong demand.
 - Office Supplies follow closely with 1,717 units, and Clothing ranks third with 1,514 units.
 - Toys have the lowest restock requirement at 1,126 units.
-  ![image](https://github.com/user-attachments/assets/61ff1913-3caf-434f-9eb5-ba5265878db9)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/61ff1913-3caf-434f-9eb5-ba5265878db9" alt="Reorder Point Compliance Chart" width="700"/>
+</p>
 
 
 ### Country-Wise Inventory Distribution
 - Germany holds the most stock (276K units, 533 SKUs), positioning it as the most heavily stocked location.
 - elgium and Spain each manage over 260,000 units, placing them among the top three locations by inventory volume.
 - France holds the fewest SKUs (470) and lowest stock volume (223K units).
-  ![image](https://github.com/user-attachments/assets/c5fdd357-625f-40ec-b251-7ab85d951abd)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c5fdd357-625f-40ec-b251-7ab85d951abd" alt="Restocking Volume by Category" width="700"/>
+</p>
 
 
 ### Inventory Turnover & Lead Time Efficiency
@@ -83,7 +87,9 @@ This inventory analysis uncovers patterns across products, suppliers, and wareho
 - Office Supplies and Clothing maintain steady turnover levels around 24K, indicating consistent sales flow.
 - Electronics has the lowest turnover at 21.63K.
 - Overall turnover is relatively balanced across all categories.
-  ![image](https://github.com/user-attachments/assets/13f14e3c-903a-4a10-b699-f56d8fba1653)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/13f14e3c-903a-4a10-b699-f56d8fba1653" alt="Stock by Country" width="700"/>
+</p>
 
 
 ### Supplier Lead Time Analysis
@@ -103,8 +109,9 @@ This inventory analysis uncovers patterns across products, suppliers, and wareho
 - The January spike was led by Office Supplies (284), Clothing (197), and Sports (146)—likely due to post-holiday demand and new-year planning.
 - February dropped sharply, especially in Clothing (13 units) and Office Supplies (77 units), while Home & Garden unexpectedly rose to 174 units.
 - December closed the year slightly above average, supported by strong restocking in Sports (244) and Books (139), possibly in preparation for year-end demand or Q1 sales.
-![image](https://github.com/user-attachments/assets/a8bd5c34-2322-42a4-9a21-abff0080d9b7)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a8bd5c34-2322-42a4-9a21-abff0080d9b7" alt="Monthly Restock Trend" width="700"/>
+</p>
 
 ---
 
