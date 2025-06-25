@@ -25,8 +25,14 @@ The dataset includes the following fields:
 | Country              | Warehouse country                                   |
 | Latitude / Longitude | Geo-coordinates of the warehouse                    |
 
-## Executive Summary
-This inventory analysis reveals key patterns across product categories, suppliers, and warehouse locations. Books, Home & Garden, and Office Supplies have the highest stock quantities, but Home & Garden also records the most stockouts, suggesting gaps in replenishment. Most categories maintain healthy reorder compliance, though Books and Office Supplies frequently fall below threshold levels, indicating the need for closer monitoring. Inventory is concentrated in Germany, Belgium, and Spain, while France holds fewer units and SKUs, which may limit local fulfillment capabilities. Supplier performance is mostly consistent, with SUP018, SUP016, and SUP030 delivering the fastest lead times. SUP041, on the other hand, shows recurring delays, especially in Books and Toys. Restocking trends are volatile throughout the year, peaking in January and May, and dropping sharply in February and August. These insights support targeted improvements in restocking, supplier selection, and warehouse distribution to maintain inventory balance and service levels.
+### Executive Summary
+
+This inventory analysis uncovers patterns across products, suppliers, and warehouse locations. While **Books**, **Home & Garden**, and **Office Supplies** have high stock availability, *Home & Garden* also leads in stockouts—highlighting gaps in replenishment. *Books* and *Office Supplies* frequently fall below reorder points, suggesting the need for closer monitoring.
+
+Inventory is mostly concentrated in **Germany**, **Belgium**, and **Spain**, while **France** holds fewer SKUs and units, which may impact local fulfillment. Supplier performance is generally stable, with **SUP018**, **SUP016**, and **SUP030** offering the fastest lead times. In contrast, **SUP041** shows repeated delays, especially in *Books* and *Toys*.
+
+Restocking activity varies throughout the year, peaking in **January** and **May**, but dropping in **February** and **August**. These insights support improvements in restocking schedules, supplier selection, and warehouse planning to maintain balanced inventory and service levels.
+
 ---
 
 ## Insights Deep-Dive
