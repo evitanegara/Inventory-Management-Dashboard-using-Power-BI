@@ -36,10 +36,8 @@ This inventory analysis uncovers patterns across products, suppliers, and wareho
   <img src="https://github.com/user-attachments/assets/ed57c6a5-71a6-41ce-8141-8b9e7ddb9cf2" alt="Inventory Dashboard Page 1" width="700"/>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/66af4abc-0f9c-4ddf-8269-3b59b7874cc7" alt="Inventory Dashboard Overview" width="700"/>
+  <img src="https://github.com/user-attachments/assets/5ddae687-44a9-46b2-889a-cddff5895728" alt="Inventory Dashboard Overview" width="700"/>
 </p>
-
-
 
 
 
